@@ -1,6 +1,6 @@
 var questions = [
     {
-	question: 'Is this going to be enough to create a webpage when I commit',
+	question: 'Is this going to be enough to create a webpage when I commit?',
 	options: ['This choice', 'This other choice', 'This yet another choice'],
 	answer: ['This choice'],
     },
