@@ -54,4 +54,4 @@ var questions = [
 	category: ['Category 2'],
     },
 ];
-document.getElementById("answers").innerHTML = question[0].options 
+document.getElementById("answers").innerHTML = questions[0].options; 
