@@ -1,29 +1,30 @@
+
 body {
-    background-image: url("http://upload.wikimedia.org/wikipedia/commons/6/6e/Moleskine_ruled_notebook,_inside_view.jpg");
     background-color: #000;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-} 
-.notecard{
-	position: absolute;
-    top: 50%;
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/6/6e/Moleskine_ruled_notebook,_inside_view.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.notecard {
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/2/2e/Notecard.jpg");
+    box-shadow: 8px 8px 10px #000000;
+    height: 288px;
     left: 50%;
     margin-right: -50%;
+    position: absolute;
+    top: 50%;
     transform: translate(-50%, -50%);
-  box-shadow:8px 8px 10px #000000;
-  background-image: url("http://upload.wikimedia.org/wikipedia/commons/2/2e/Notecard.jpg");
-  width: 480px;
-  height: 288px;
+    width: 480px;
 }
-.question{
-  position:absolute;
-  	top: -4.5%;
-  	left: 0;
-   color:#FF00FF;
+.question {
+    color: #ff00ff;
+    left: 0;
+    position: absolute;
+    top: -4.5%;
 }
-.answers{
-  position:absolute;
-  	top:13%;
-  	left: 40px;
-  color:#FF00FF;	
-}  
+.answers {
+    color: #ff00ff;
+    left: 10px;
+    position: absolute;
+    top: 13%;
+}
