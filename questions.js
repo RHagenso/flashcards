@@ -55,4 +55,4 @@ var questions = [
     },
 ];
 document.getElementById("answers").innerHTML = questions[0].options; 
-document.getElementById("quesion").innerHTML = questions[0].question;
+document.getElementById("question").innerHTML = questions[0].question;
