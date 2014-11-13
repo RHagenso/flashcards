@@ -54,5 +54,7 @@ var questions = [
 	category: ['Category 2'],
     },
 ];
-document.getElementById("answers").innerHTML = questions[0].options; 
+document.getElementById("option0").innerHTML = questions[0].options[0];
+document.getElementById("option1").innerHTML = questions[0].options[1];
+document.getElementById("option2").innerHTML = questions[0].options[2];
 document.getElementById("question").innerHTML = questions[0].question;
