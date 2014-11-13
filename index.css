@@ -28,3 +28,9 @@ body {
     position: absolute;
     top: 13%;
 }
+.next_button {
+	color: #ff00ff;
+	right: 10px;
+	position: absolute;
+	bottom: 5%
+}
