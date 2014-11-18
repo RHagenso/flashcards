@@ -1,0 +1,3 @@
+TODO:
+1. Let user choose category at startup
+2. Show either "Correct" or "Incorrect" depending on answer
