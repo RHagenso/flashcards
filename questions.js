@@ -43,7 +43,7 @@ var questions = [
     },
     {
 	question: 'Wolverine, what country is he from?',
-	options: ['USA!', 'Canada, ay', 'Down under (Australia)],
+	options: ['USA!', 'Canada, ay', 'Down under (Australia)'],
 	answer: ['Canada, ay'],
 	category: ['Category 2'],
     },
