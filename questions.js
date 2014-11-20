@@ -63,4 +63,38 @@ function next() {
 	document.getElementById("option2").innerHTML = questions[i].options[2];
 	document.getElementById("question").innerHTML = questions[i].question;
 }
+
 document.getElementById('next_button').addEventListener('click',next);
+
+function correct_or_not0() {
+	if (questions[i].answer === document.getElementById("option0").innerHTML) {
+		document.getElementById("correct_or_no").innerHTML = "Correct!";
+	}
+	else {
+		document.getElementById("correct_or_no").innerHTML = "Incorrect!";
+	}
+}
+
+function correct_or_not1() {
+	if (questions[i].answer === document.getElementById("option1").innerHTML) {
+		document.getElementById("correct_or_no").innerHTML = "Correct!";
+	}
+	else {
+		document.getElementById("correct_or_no").innerHTML = "Incorrect!";
+	}
+}
+
+function correct_or_not2() {
+	if (questions[i].answer === document.getElementById("option2").innerHTML) {
+		document.getElementById("correct_or_no").innerHTML = "Correct!";
+	}
+	else {
+		document.getElementById("correct_or_no").innerHTML = "Incorrect!";
+	}
+}
+
+document.getElementById("button0").addEventListener('click',correct_or_not0(button0));
+document.getElementById("button1").addEventListener('click',correct_or_not1(button1));
+document.getElementById("button2").addEventListener('click',correct_or_not2(button2));
+
+

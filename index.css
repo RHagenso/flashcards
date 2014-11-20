@@ -34,3 +34,8 @@ body {
 	position: absolute;
 	bottom: 5%
 }
+.correct_or_no {
+	left: 10px;
+	position: absolute;
+	bottom: 5%
+}
