@@ -62,6 +62,7 @@ function next() {
 	document.getElementById("option1").innerHTML = questions[i].options[1];
 	document.getElementById("option2").innerHTML = questions[i].options[2];
 	document.getElementById("question").innerHTML = questions[i].question;
+	document.getElementById("correct_or_no").innerHTML = "Good luck!"
 }
 
 document.getElementById('next_button').addEventListener('click',next);
