@@ -14,7 +14,7 @@ var questions = [
     {
 	question: 'What is "The T in a classroom?',
 	options: ['Are we talking Mr. T?', 'We do not drink T in America', 'The first row and middle section of desks'],
-	answer: ['he first row and middle section of desks'],
+	answer: ['The first row and middle section of desks'],
 	category: ['Category 1'],
     },
     {
@@ -57,12 +57,12 @@ var questions = [
 
 var i = 0;
 function next() {
-	i = i+1;
+	i = i+0.5;
 	document.getElementById("option0").innerHTML = questions[i].options[0];
 	document.getElementById("option1").innerHTML = questions[i].options[1];
 	document.getElementById("option2").innerHTML = questions[i].options[2];
 	document.getElementById("question").innerHTML = questions[i].question;
-	document.getElementById("correct_or_no").innerHTML = "";
+	document.getElementById("correct_or_no").innerHTML = i;
 }
 
 document.getElementById('next_button').addEventListener('click',next);
