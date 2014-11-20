@@ -63,7 +63,7 @@ function next() {
 	document.getElementById("option1").innerHTML = questions[i].options[1];
 	document.getElementById("option2").innerHTML = questions[i].options[2];
 	document.getElementById("question").innerHTML = questions[i].question;
-	document.getElementById("correct_or_no").innerHTML = "Question number is "+i;
+	document.getElementById("correct_or_no").innerHTML = "Question: "+i;
 	document.getElementById("button0").addEventListener('click',correct_or_not0);
 	document.getElementById("button1").addEventListener('click',correct_or_not1);
 	document.getElementById("button2").addEventListener('click',correct_or_not2);
@@ -109,4 +109,4 @@ function correct_or_not2() {
 	document.getElementById("button1").removeEventListener('click',correct_or_not1);
 	document.getElementById("button2").removeEventListener('click',correct_or_not2);
 }
-document.getElementById("percentage").innerHTML = (100*j/i+"%");
+document.getElementById("percentage") = (100*j/i+"%");
