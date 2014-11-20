@@ -37,5 +37,7 @@ body {
 .correct_or_no {
 	left: 10px;
 	position: absolute;
-	bottom: 5%
+	bottom: 5%;
+	font-size: 20pt;
+	color: #ff00ff;
 }

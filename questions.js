@@ -62,13 +62,13 @@ function next() {
 	document.getElementById("option1").innerHTML = questions[i].options[1];
 	document.getElementById("option2").innerHTML = questions[i].options[2];
 	document.getElementById("question").innerHTML = questions[i].question;
-	document.getElementById("correct_or_no").innerHTML = "Good luck!"
+	document.getElementById("correct_or_no").innerHTML = ""
 }
 
 document.getElementById('next_button').addEventListener('click',next);
 
 function correct_or_not0() {
-	if (questions[i].answer === document.getElementById("option0")) {
+	if (questions[i].answer === document.getElementById("option0").innerHTML) {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
@@ -77,7 +77,7 @@ function correct_or_not0() {
 }
 
 function correct_or_not1() {
-	if (questions[i].answer === document.getElementById("option1")) {
+	if (questions[i].answer === document.getElementById("option1").innerHTML) {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
@@ -86,7 +86,7 @@ function correct_or_not1() {
 }
 
 function correct_or_not2() {
-	if (questions[i].answer === document.getElementById("option2")) {
+	if (questions[i].answer === document.getElementById("option2").innerHTML) {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
