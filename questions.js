@@ -58,7 +58,7 @@ var questions = [
 var i = 0;
 var j = 0;
 function next() {
-	i = i+0.5;
+	i = i+1;
 	document.getElementById("option0").innerHTML = questions[i].options[0];
 	document.getElementById("option1").innerHTML = questions[i].options[1];
 	document.getElementById("option2").innerHTML = questions[i].options[2];
