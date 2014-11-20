@@ -72,7 +72,7 @@ function correct_or_not0() {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
-		document.getElementById("correct_or_no").innerHTML = document.getElementById("option0").innerHTML;
+		document.getElementById("correct_or_no").innerHTML = "Incorrect!";
 	}
 }
 
@@ -81,7 +81,7 @@ function correct_or_not1() {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
-		document.getElementById("correct_or_no").innerHTML = questions[i].answer[0];
+		document.getElementById("correct_or_no").innerHTML = "Incorrect!";
 	}
 }
 
