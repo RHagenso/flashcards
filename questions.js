@@ -62,7 +62,7 @@ function next() {
 	document.getElementById("option1").innerHTML = questions[i].options[1];
 	document.getElementById("option2").innerHTML = questions[i].options[2];
 	document.getElementById("question").innerHTML = questions[i].question;
-	document.getElementById("correct_or_no").innerHTML = ""
+	document.getElementById("correct_or_no").innerHTML = "";
 }
 
 document.getElementById('next_button').addEventListener('click',next);
@@ -72,7 +72,7 @@ function correct_or_not0() {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
-		document.getElementById("correct_or_no").innerHTML = "Incorrect!";
+		document.getElementById("correct_or_no").innerHTML = document.getElementById("option0").innerHTML;
 	}
 }
 
@@ -81,7 +81,7 @@ function correct_or_not1() {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
-		document.getElementById("correct_or_no").innerHTML = "Incorrect!";
+		document.getElementById("correct_or_no").innerHTML = questions[i].answer[0];
 	}
 }
 
