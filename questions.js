@@ -67,7 +67,7 @@ function next() {
 document.getElementById('next_button').addEventListener('click',next);
 
 function correct_or_not0() {
-	if (questions[i].answer === document.getElementById("option0").innerHTML) {
+	if (questions[i].answer === document.getElementById("option0")) {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
@@ -76,7 +76,7 @@ function correct_or_not0() {
 }
 
 function correct_or_not1() {
-	if (questions[i].answer === document.getElementById("option1").innerHTML) {
+	if (questions[i].answer === document.getElementById("option1")) {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
@@ -85,7 +85,7 @@ function correct_or_not1() {
 }
 
 function correct_or_not2() {
-	if (questions[i].answer === document.getElementById("option2").innerHTML) {
+	if (questions[i].answer === document.getElementById("option2")) {
 		document.getElementById("correct_or_no").innerHTML = "Correct!";
 	}
 	else {
@@ -93,8 +93,8 @@ function correct_or_not2() {
 	}
 }
 
-document.getElementById("button0").addEventListener('click',correct_or_not0(button0));
-document.getElementById("button1").addEventListener('click',correct_or_not1(button1));
-document.getElementById("button2").addEventListener('click',correct_or_not2(button2));
+document.getElementById("button0").addEventListener('click',correct_or_not0);
+document.getElementById("button1").addEventListener('click',correct_or_not1);
+document.getElementById("button2").addEventListener('click',correct_or_not2);
 
 
