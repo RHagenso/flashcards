@@ -41,3 +41,10 @@ body {
 	font-size: 20pt;
 	color: #ff00ff;
 }
+.percentage {
+	color: #ff00ff;
+	position:absolute;
+	bottom: 5%;
+	font-size: 20pt;
+	right:50%;
+}
