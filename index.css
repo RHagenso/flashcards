@@ -46,14 +46,14 @@ body {
 	position:absolute;
 	top: 5%;
 	font-size:30pt;
-	left:25%;
+	left:5%;
 	font-family:bold;
 }
 .number_correct{
 	color: #ff00ff;
 	position:absolute;
 	top:12%;
-	left:25%;
+	left:5%;
 	font-size:30pt;
 	font-family:bold;
 }

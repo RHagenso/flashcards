@@ -82,6 +82,8 @@ function correct_or_not0() {
 	document.getElementById("button0").removeEventListener('click',correct_or_not0);
 	document.getElementById("button1").removeEventListener('click',correct_or_not1);
 	document.getElementById("button2").removeEventListener('click',correct_or_not2);
+	document.getElementById("percentage").innerHTML = 100*j/i+"%";
+	document.getElementById("number_correct").innerHTML = "Number correct: "+j;
 }
 
 function correct_or_not1() {
@@ -95,6 +97,8 @@ function correct_or_not1() {
 	document.getElementById("button0").removeEventListener('click',correct_or_not0);
 	document.getElementById("button1").removeEventListener('click',correct_or_not1);
 	document.getElementById("button2").removeEventListener('click',correct_or_not2);
+	document.getElementById("percentage").innerHTML = 100*j/i+"%";
+	document.getElementById("number_correct").innerHTML = "Number correct: "+j;
 }
 
 function correct_or_not2() {
@@ -108,6 +112,6 @@ function correct_or_not2() {
 	document.getElementById("button0").removeEventListener('click',correct_or_not0);
 	document.getElementById("button1").removeEventListener('click',correct_or_not1);
 	document.getElementById("button2").removeEventListener('click',correct_or_not2);
+	document.getElementById("percentage").innerHTML = 100*j/i+"%";
+	document.getElementById("number_correct").innerHTML = "Number correct: "+j;
 }
-document.getElementById("percentage").innerHTML(100*j/i+"%");
-document.getElementById("number_correct").innerHTML("Number correct: "+j)
